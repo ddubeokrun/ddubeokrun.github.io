@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DdubeokRun (뚜벅런) Privacy Policy | 개인정보처리방침</title>
+    <style>
+        :root {
+            --bg: #0f131a;
+            --card: #181e29;
+            --text: #f8fafc;
+            --muted: #94a3b8;
+            --accent: #ff6b2c;
+            --cyan: #22d3ee;
+            --border: rgba(255, 255, 255, 0.08);
+        }
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Pretendard", "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            padding: 32px 16px 64px;
+        }
+        .container {
+            max-width: 820px;
+            margin: 0 auto;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 20px;
+            margin-bottom: 24px;
+        }
+        h1 {
+            margin: 0 0 8px;
+            font-size: 1.7rem;
+            color: var(--text);
+        }
+        .subtitle {
+            color: var(--muted);
+            font-size: 0.92rem;
+        }
+        .lang-nav {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        .lang-nav a {
+            color: var(--cyan);
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 0.9rem;
+            padding: 6px 14px;
+            border-radius: 999px;
+            border: 1px solid rgba(34, 211, 238, 0.35);
+            background: rgba(34, 211, 238, 0.08);
+        }
+        section {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 20px 24px;
+            margin-bottom: 16px;
+        }
+        h2 {
+            margin: 0 0 10px;
+            font-size: 1.12rem;
+            color: var(--cyan);
+        }
+        ul {
+            margin: 8px 0 0;
+            padding-left: 20px;
+            color: var(--muted);
+        }
+        li { margin-bottom: 6px; }
+        p {
+            margin: 6px 0;
+            color: var(--muted);
+        }
+        .badge {
+            display: inline-block;
+            background: rgba(255, 107, 44, 0.16);
+            color: var(--accent);
+            font-weight: 700;
+            font-size: 0.8rem;
+            padding: 3px 10px;
+            border-radius: 999px;
+            margin-bottom: 8px;
+        }
+        hr.divider {
+            border: none;
+            border-top: 1px solid var(--border);
+            margin: 36px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <span class="badge">Google Play Policy Compliant · Local-First</span>
+            <h1>DdubeokRun (뚜벅런) Privacy Policy · 개인정보처리방침</h1>
+            <div class="subtitle">Effective &amp; Last Updated: November 19, 2026 (v1.0)</div>
+        </header>
+
+        <div class="lang-nav">
+            <a href="#en">English</a>
+            <a href="#ko">한국어</a>
+        </div>
+
+        <!-- ENGLISH SECTION -->
+        <div id="en">
+            <section>
+                <h2>1. Information We Process (On-Device Only)</h2>
+                <p>DdubeokRun ("the App") is a local-first running tracker, pace coach, and GPX route replay application. No account registration is required, and your personal workout records are stored locally on your device.</p>
+                <ul>
+                    <li><strong>Location Data (ACCESS_FINE_LOCATION, FOREGROUND_SERVICE_LOCATION)</strong>: Used strictly while an active run is in progress (via a visible foreground service notification) to calculate distance, pace, splits, GPX route coordinates, and turn-by-turn voice guidance. Location tracking stops immediately when you finish or cancel a run.</li>
+                    <li><strong>Physical Activity &amp; Step Sensor (ACTIVITY_RECOGNITION)</strong>: Used to measure real-time cadence (SPM), filter GPS drift while stationary, and support auto-pause/resume.</li>
+                    <li><strong>Bluetooth LE Heart Rate Sensor (BLUETOOTH_SCAN, BLUETOOTH_CONNECT)</strong>: Used solely to connect to optional BLE heart rate monitors/smartwatches to display real-time BPM and heart rate zones. Bluetooth is never used for location inference.</li>
+                    <li><strong>Media / Video Export</strong>: When you choose to save a 2D/3D pace map replay video, the MP4 file is saved locally to your device Gallery (Movies/DdubeokRun) via Android MediaStore.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>2. Data Storage &amp; Third-Party Sharing</h2>
+                <ul>
+                    <li>All run records, GPS routes, custom courses, and user preferences (language, units, time format, runner profile) are stored locally in your device's private database (Room DB / SharedPreferences).</li>
+                    <li>DdubeokRun does <strong>not</strong> sell, rent, or transmit your personal location or fitness data to external servers, ad networks, or data brokers.</li>
+                    <li>Map tiles are fetched directly from OpenStreetMap / Carto public tile servers solely to render the map view.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>3. Data Deletion &amp; Permission Control</h2>
+                <ul>
+                    <li><strong>Delete All Data In-App</strong>: Open <strong>Settings &gt; Privacy &amp; Data &gt; Reset All Running Data</strong> to permanently erase all local records, routes, custom courses, and settings.</li>
+                    <li><strong>Delete Individual Runs</strong>: Open <strong>Run History</strong> to delete any individual workout record at any time.</li>
+                    <li><strong>Revoke Permissions</strong>: You can revoke Location, Physical Activity, Notification, or Bluetooth permissions anytime in Android System Settings &gt; Apps &gt; DdubeokRun &gt; Permissions.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>4. Contact</h2>
+                <ul>
+                    <li>App Name: DdubeokRun (뚜벅런)</li>
+                    <li>Support &amp; Privacy Inquiries: <a href="https://github.com/ddubeokrun/ddubeokrun.github.io/issues" style="color: #22d3ee;">https://github.com/ddubeokrun/ddubeokrun.github.io/issues</a></li>
+                </ul>
+            </section>
+        </div>
+
+        <hr class="divider" />
+
+        <!-- KOREAN SECTION -->
+        <div id="ko">
+            <section>
+                <h2>1. 개인정보의 처리 목적 및 기기 내 처리 항목</h2>
+                <p>뚜벅런(DdubeokRun, 이하 "앱")은 별도의 회원가입 없이 기기 내에서 안전하게 동작하는 러닝 기록·페이스 코칭·GPX 경로 리플레이 앱입니다.</p>
+                <ul>
+                    <li><strong>위치 정보 (ACCESS_FINE_LOCATION, FOREGROUND_SERVICE_LOCATION)</strong>: 사용자가 러닝을 시작한 시점부터 종료할 때까지 상단 알림이 표시되는 포그라운드 서비스로만 작동하며, 이동 거리, 실시간/평균 페이스, 구간 스플릿, GPX 경로 추적 및 코스 안내를 계산합니다. 러닝 종료 즉시 위치 수집은 중단됩니다.</li>
+                    <li><strong>신체 활동 및 걸음 센서 (ACTIVITY_RECOGNITION)</strong>: 실시간 케이던스(SPM) 산출, 정지 상태 GPS 오차 보정 및 자동 일시정지/재개 감지에 사용됩니다.</li>
+                    <li><strong>블루투스 심박 연동 (BLUETOOTH_SCAN, BLUETOOTH_CONNECT)</strong>: 사용자가 선택한 BLE 심박 센서·스마트워치와 연결하여 실시간 심박수(BPM) 및 심박존을 표시하며, 위치 추론 목적으로는 사용하지 않습니다.</li>
+                    <li><strong>영상 저장</strong>: 사용자가 2D/3D 페이스 지도 리플레이 영상 저장을 요청할 때만 기기 갤러리(Movies/DdubeokRun)에 MP4 파일을 저장합니다.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>2. 데이터 보관 및 제3자 제공 금지</h2>
+                <ul>
+                    <li>모든 러닝 기록, 경로 좌표, 커스텀 코스 및 앱 설정(언어, 단위, 시간 표시, 러너 프로필)은 사용자의 스마트폰 로컬 저장소(Room DB / SharedPreferences)에만 보관됩니다.</li>
+                    <li>사용자의 위치 및 운동 데이터는 외부 서버, 광고 플랫폼 또는 제3자에게 판매·공유·전송되지 않습니다.</li>
+                    <li>지도 화면 표시를 위해 OpenStreetMap / Carto 공개 타일 서버에서 지도 이미지를 불러옵니다.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>3. 사용자의 데이터 삭제 및 권한 철회</h2>
+                <ul>
+                    <li><strong>앱 내 전체 삭제</strong>: <strong>[설정 &gt; 개인정보 및 데이터 관리 &gt; 모든 러닝 데이터 초기화]</strong>를 통해 기기에 저장된 모든 러닝 기록, 경로, 코스 및 설정을 즉시 영구 삭제할 수 있습니다.</li>
+                    <li><strong>개별 기록 삭제</strong>: <strong>[러닝 기록]</strong> 화면에서 원하는 기록을 언제든 삭제할 수 있습니다.</li>
+                    <li><strong>권한 철회</strong>: 안드로이드 설정 &gt; 애플리케이션 &gt; 뚜벅런 &gt; 권한에서 언제든 위치, 신체 활동, 알림 및 블루투스 권한을 해제할 수 있습니다.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>4. 개인정보 보호책임자 및 문의처</h2>
+                <ul>
+                    <li>서비스명: 뚜벅런 (DdubeokRun)</li>
+                    <li>공식 지원 및 문의: <a href="https://github.com/ddubeokrun/ddubeokrun.github.io/issues" style="color: #22d3ee;">https://github.com/ddubeokrun/ddubeokrun.github.io/issues</a></li>
+                </ul>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
